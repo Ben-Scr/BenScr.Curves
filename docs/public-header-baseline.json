@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "header": "include/benscr/curves/curves.hpp",
+  "sha256": "8080e7776652e0cb3164c9f43e489d106f0c559fa9730bd69fa5dcfc6cde78a2",
+  "review": "Initial API described in docs/API.md"
+}

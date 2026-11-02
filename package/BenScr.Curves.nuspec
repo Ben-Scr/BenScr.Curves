@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>BenScr.Curves</id><version>1.0.0</version><authors>Ben Schneider</authors>
+    <description>C++20 header-only easing, time-mapped cubic Bezier curves and owning scalar keyframe tracks with finite-input validation and explicit interpolation contracts.</description>
+    <projectUrl>https://github.com/Ben-Scr/BenScr.Curves</projectUrl>
+    <repository type="git" url="https://github.com/Ben-Scr/BenScr.Curves" commit="$commit$" />
+    <license type="file">LICENSE.txt</license><readme>README.md</readme><icon>icon.png</icon>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance><tags>native curves easing bezier animation interpolation cpp20</tags>
+  </metadata>
+  <files>
+    <file src="include\benscr\curves\curves.hpp" target="include\benscr\curves" />
+    <file src="package\BenScr.Curves.props" target="build\native" />
+    <file src="package\BenScr.Curves.targets" target="build\native" />
+    <file src="LICENSE.txt" target="" /><file src="README.md" target="" />
+    <file src="branding\BenScr_Icon_Master.png" target="icon.png" />
+  </files>
+</package>
